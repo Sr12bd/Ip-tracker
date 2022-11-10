@@ -5,6 +5,7 @@ import colorama
 from colorama import*
 banner = pyfiglet.figlet_format("Ip tracker")
 print(Fore.BLUE+banner)
+print("to change the ip addreses, edit the file and change the ip next to query")
 time.sleep(0.5)
 print(Fore.BLUE+"reading ip addreses........")
 time.sleep(0.5)
